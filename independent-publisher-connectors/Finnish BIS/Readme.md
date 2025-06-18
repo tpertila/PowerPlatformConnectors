@@ -3,6 +3,9 @@ This API provides information from the Finnish Business Information System (BIS)
 
 The BIS Search also provides information on entities which are not registered at the Finnish Trade Register, such as municipalities or Government agencies in Finland.
 
+## Deprecation
+Be aware, that this connector has deprecated. Used API has been changed. 
+
 ## Publisher: Timo Pertilä, Forward Forever
 
 ## Prerequisites
@@ -11,10 +14,10 @@ PRH provides access to the Finnish BIS API with no account or authentication nee
 
 ## Supported Operations
 
-### Get company information
+### Get company information (Deprecated)
 Search for company information by using Finnish Business Id
 
-### Search for companies
+### Search for companies (Deprecated)
 Search for companies by name. You can restrict your search by the total number of search results.
 
 ### Obtaining Credentials
